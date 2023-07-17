@@ -2,8 +2,9 @@
 
 # Setup
 
-Run `npm install` to install dependencies
-Run `npm start` to start server.
+- Copy the `.env.example` file as `.env.local` and change the token value.
+- Run `npm install` to install dependencies
+- Run `npm start` to start server.
 
 # Tech stack
 

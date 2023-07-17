@@ -6,7 +6,7 @@ export async function getAccesTokenAPI() {
     {},
     {
       headers: {
-        Authorization: "Bearer 264c77f740cc1f02cac8f0a7e30ccdcd2f20dcf5",
+        Authorization: "Bearer " + process.env.REACT_APP_ARC_TOKEN,
       },
     }
   );
